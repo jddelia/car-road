@@ -47,3 +47,12 @@
   height: 100px;
   width: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+  #car {
+    position: absolute;
+    left: 37%;
+    height: 100px;
+    width: 100px;
+  }
+}
