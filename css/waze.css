@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  grid-template-columns: 4fr 2fr 4fr;
+  grid-auto-rows: minmax(10px, auto);
+  grid-gap: 10px;
+}
+
+.block {
+  grid-column: 1/4;
+  height: 2000px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+  justify-items: center;
+  background-color: #ffffff;
+}
+
+.road {
+  height: 200px;
+  width: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: #222222;
+}
+
+.solidYellow {
+  height: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  border-left: 2px solid yellow;
+  border-right: 2px solid yellow;
+}
+
+.dashedYellow {
+  height: 30%;
+  width: 5%;
+  background-color: yellow;
+}
+
+#car {
+  position: absolute;
+  left: 46%;
+  height: 100px;
+  width: 100px;
+}
